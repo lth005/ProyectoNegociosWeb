@@ -1,0 +1,1 @@
+INSERT INTO `usuario` (`usercod`, `useremail`, `username`, `userpswd`, `userfching`, `userpswdest`, `userpswdexp`, `userest`, `useractcod`, `userpswdchg`, `usertipo`) VALUES (NULL, 'administrador@gemfarma.com', 'Administrador', 'Unicah2020', '2020-12-02 10:10:12', 'VGT', NULL, 'ACT', NULL, NULL, 'ADM'); 

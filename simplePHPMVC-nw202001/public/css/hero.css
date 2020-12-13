@@ -1,0 +1,193 @@
+.heropanel {
+  display: block;
+  box-sizing: border-box;
+  min-height: 90vh;
+  background-position: right top;
+  background-size: cover;
+  background-color: #EEE;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -32px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.heropanel img{
+  display: block;
+  box-sizing: border-box;
+  min-height: 90vh;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  background-color: #EEE;
+  margin-left: -16px;
+  margin-right: -16px;
+  margin-top: -32px;
+  margin-bottom: 0px;
+  position: relative;
+  width: 100%;
+}
+.heropanel h1 {
+  position: absolute;
+  top: 15%;
+  height: 100%;
+  max-height: 100%;
+  left: calc(50% - 125px);
+  width:250px;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
+.heropanel p{
+  text-align: center;
+  padding: 10%;
+  font-size: 16px;
+  position: absolute;
+  bottom: 15%;
+  width:100%;
+  font-weight: bold;
+}
+.heropanel a {
+  position: absolute;
+  top: 53%;
+  left: calc(50% - 100px);
+  width:200px;
+  text-decoration: none;
+  padding: 1.5em 2em;
+  text-align: center;
+}
+.cards2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cards2>div{
+  width: 60%;
+  text-align: center;
+  padding:1em;
+  border: 1px solid #555;
+  margin:9.5%;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cards>div{
+  width: 45%;
+  text-align: center;
+  padding:1em;
+  border: 1px solid #555;
+  margin:2.5%;
+}
+img{
+  width: 100%;
+}
+div .icono {
+  margin:0 0 10px;
+}
+.row1 {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  margin: 0px;
+  flex-wrap: wrap;
+  background-color:#90B6FB;
+}
+.imagen a{
+  position: relative;
+  display: block;
+  
+}
+.imagen img{
+  box-shadow: 0px 11px 12px 0 #333;
+  margin: 50px 0px;
+  transition: .2s;
+}
+.imagen a:hover img{
+  box-shadow: 10px 14px 15px 0 #635f5f;
+  
+}
+.row1.reverse {
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+}
+
+.row1.tittle { 
+  background-color: #333;
+  color: #ffffff;
+}
+
+.row1 div h2,.row1 div p {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+[class*=col1-] {
+  display: flex;
+  /*justify-content: flex-start;
+  align-items: flex-start;*/
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0.5em 0.5em;
+  margin: 0px;
+}
+
+.col1-sm-1-a {
+  flex-basis: calc(100%/12);
+}
+
+.col1-sm-2-a {
+  flex-basis: calc(100%/6);
+}
+
+.col1-sm-3-a {
+  flex-basis: calc(100%/4);
+}
+
+.col1-sm-4-a {
+  flex-basis: calc(100%/3);
+}
+
+.col1-sm-5-a {
+  flex-basis: calc(100%/12 * 5);
+}
+
+.col1-sm-6-a {
+  flex-basis: calc(100%/2);
+}
+
+.col1-sm-7-a {
+  flex-basis: calc(100%/12 * 7);
+}
+
+.col1-sm-8-a {
+  flex-basis: calc(100%/12 * 8);
+}
+
+.col1-sm-9-a {
+  flex-basis: calc(100%/12 * 9);
+}
+
+.col1-sm-10-a {
+  flex-basis: calc(100%/12 * 10);
+}
+
+.col1-sm-11-a {
+  flex-basis: calc(100%/12 * 11);
+}
+
+.col1-sm-12-a {
+  flex-basis: 100%;
+}
+
+
+
+
+
